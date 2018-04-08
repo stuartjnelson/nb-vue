@@ -62,7 +62,8 @@ exports.cssLoaders = function(options) {
                 resources: [
                     path.resolve(__dirname, '../assets/scss/config/_config.scss'),
                     path.resolve(__dirname, '../assets/scss/config/_functions.scss'),
-                    path.resolve(__dirname, '../assets/scss/config/_mixins.scss')
+                    path.resolve(__dirname, '../assets/scss/config/_mixins.scss'),
+                    path.resolve(__dirname, '../assets/scss/vendor/_mq.scss')
                 ]
             }
         })
