@@ -8,6 +8,9 @@ import App from './App'
 import router from './router'
 {{/router}}
 
+// Importing css helpers
+require('../assets/scss/main.scss')
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
